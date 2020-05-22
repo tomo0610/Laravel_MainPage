@@ -11,11 +11,11 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('Welcome/welcome');
-// });
-
 Route::get('/', function () {
+    return view('Welcome/welcome');
+});
+
+Route::post('/Login', function () {
     return view('Login/login-page');
 });
 
@@ -25,4 +25,4 @@ Route::get('/', function () {
 
 Route::post('/LoginForm','LoginController@InputLogin');
 
-Route::get('/CacheFlush','CacheController@flush');
+Route::post('/CacheFlush','CacheController@flush');
