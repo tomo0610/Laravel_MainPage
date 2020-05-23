@@ -23,5 +23,7 @@ class CacheController extends Controller
   {
     // キャッシュ全削除
     Cache::flush();
+
+    return view('Cache/cache-flush-success');
   }
 }

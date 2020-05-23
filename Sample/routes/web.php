@@ -25,4 +25,6 @@ Route::post('/Login', function () {
 
 Route::post('/LoginForm','LoginController@InputLogin');
 
+Route::get('/CacheFlush','CacheController@flush');
+
 Route::post('/CacheFlush','CacheController@flush');
