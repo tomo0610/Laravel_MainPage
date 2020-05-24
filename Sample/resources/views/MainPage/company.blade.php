@@ -31,23 +31,23 @@
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul class="inner">
-<li><a href="index.html">ホーム<span>HOME</span></a></li>
-<li class="current"><a href="company.html">会社概要<span>COMPANY</span></a></li>
-<li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
-<li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
-<li><a href="link.html">リンク<span>STAFF</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/MainPage">ホーム<span>HOME</span></a></li>
+<li class="current"><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
+<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
+<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="index.html">ホーム<span>HOME</span></a></li>
-<li><a href="company.html">会社概要<span>COMPANY</span></a></li>
-<li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
-<li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
-<li><a href="link.html">リンク<span>STAFF</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/MainPage">ホーム<span>HOME</span></a></li>
+<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
+<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
+<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
 </nav>
 

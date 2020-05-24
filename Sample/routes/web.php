@@ -44,3 +44,19 @@ Route::post('/CacheFlush','CacheController@flush');
 Route::get('/MainPage_Company', function () {
     return view('MainPage/company');
 });
+
+Route::get('/MainPage_Service', function () {
+    return view('MainPage/service');
+});
+
+Route::get('/MainPage_Recruit', function () {
+    return view('MainPage/recruit');
+});
+
+Route::get('/MainPage_Link', function () {
+    return view('MainPage/link');
+});
+
+Route::get('/MainPage_Contact', function () {
+    return view('MainPage/contact');
+});
