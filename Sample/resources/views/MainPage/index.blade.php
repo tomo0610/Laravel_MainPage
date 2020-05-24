@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>クールイメージビジネスサイトサイト向け 無料ホームページテンプレート tp_cool7</title>
+<title>メインページ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
@@ -32,7 +32,7 @@
 <nav id="menubar">
 <ul class="inner">
 <li class="current"><a href="index.html">ホーム<span>HOME</span></a></li>
-<li><a href="company.html">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
 <li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
 <li><a href="link.html">リンク<span>STAFF</span></a></li>
@@ -43,7 +43,7 @@
 <nav id="menubar-s">
 <ul>
 <li><a href="index.html">ホーム<span>HOME</span></a></li>
-<li><a href="company.html">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
 <li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
 <li><a href="link.html">リンク<span>STAFF</span></a></li>

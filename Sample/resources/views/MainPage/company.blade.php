@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slide.css">
-<script type="text/javascript" src="js/openclose.js"></script>
-<script type="text/javascript" src="js/fixmenu_pagetop.js"></script>
+<link rel="stylesheet" href="assets/tp_cool7/css/style.css">
+<link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
+<script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
+<script type="text/javascript" src="assets/tp_cool7/js/fixmenu_pagetop.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -21,7 +21,7 @@
 
 <header>
 <div class="inner">
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1 id="logo"><a href="index.html"><img src="assets/tp_cool7/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 <div id="contact">
 <p class="tel">TEL:00-0000-0000<span>受付：00:00〜00:00　定休日：水曜日</span></p>
 </div>
@@ -213,7 +213,7 @@ offsettop = 350;<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -221,7 +221,7 @@ offsettop = 350;<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -229,7 +229,7 @@ offsettop = 350;<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -259,7 +259,7 @@ TEL：03-0000-0000<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -267,7 +267,7 @@ TEL：03-0000-0000<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -275,7 +275,7 @@ TEL：03-0000-0000<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -283,7 +283,7 @@ TEL：03-0000-0000<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -291,7 +291,7 @@ TEL：03-0000-0000<br>
 
 <div class="list">
 <a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -311,8 +311,8 @@ TEL：03-0000-0000<br>
 </nav>
 
 <p>
-<a href="recruit.html"><img src="images/banner1.jpg" alt="採用情報" class="pc"></a>
-<a href="recruit.html"><img src="images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
+<a href="recruit.html"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
+<a href="recruit.html"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
 </p>
 <p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
 <a href="company.html#banner">詳しい説明はこちら。</a></p>

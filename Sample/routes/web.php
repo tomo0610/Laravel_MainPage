@@ -11,6 +11,10 @@
 |
 */
 
+//--------------------------------------------------------------------------
+// デフォルトルート
+//--------------------------------------------------------------------------
+
 // Route::get('/', function () {
 //     return view('Welcome/welcome');
 // });
@@ -23,12 +27,20 @@ Route::get('/MainPage', function () {
     return view('MainPage/index');
 });
 
-// Route::get('/Login', function () {
-//     return view('Login/login-page');
-// });
+Route::get('/CacheFlush','CacheController@flush');
+
+//--------------------------------------------------------------------------
+// ログインページルート
+//--------------------------------------------------------------------------
 
 Route::post('/LoginForm','LoginController@InputLogin');
 
-Route::get('/CacheFlush','CacheController@flush');
-
 Route::post('/CacheFlush','CacheController@flush');
+
+//--------------------------------------------------------------------------
+// メインページルート
+//--------------------------------------------------------------------------
+
+Route::get('/MainPage_Company', function () {
+    return view('MainPage/company');
+});
