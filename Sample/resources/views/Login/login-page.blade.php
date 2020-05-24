@@ -20,8 +20,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="css/assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="css/assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/now-ui-kit/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/now-ui-kit/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     TOPPAGE
@@ -31,10 +31,10 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
-  <link href="css/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+  <link href="assets/now-ui-kit/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/now-ui-kit/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="css/assets/demo/demo.css" rel="stylesheet" />
+  <link href="assets/now-ui-kit/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="login-page sidebar-collapse">
@@ -42,7 +42,7 @@
   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-text">TEST</div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="css/assets/img/blurred-image-1.jpg">
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/now-ui-kit/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="css/index.html">Back to Kit</a>
@@ -75,7 +75,7 @@
   <!-- End Navbar -->
 
   <div class="page-header clear-filter" filter-color="orange">
-    <div class="page-header-image" style="background-image:url(css/assets/img/login.jpg)"></div>
+    <div class="page-header-image" style="background-image:url(assets/now-ui-kit/img/login.jpg)"></div>
     <div class="content">
       <div class="container">
         <div class="col-md-4 ml-auto mr-auto">
@@ -84,7 +84,7 @@
             @csrf
               <div class="card-header text-center">
                 <div class="logo-container">
-                  <img src="css/assets/img/now-logo.png" alt="">
+                  <img src="assets/now-ui-kit/img/now-logo.png" alt="">
                 </div>
               </div>
               <div class="card-body">
@@ -157,19 +157,19 @@
     </footer>
   </div>
   <!--   Core JS Files   -->
-  <script src="css/assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="css/assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="css/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/core/bootstrap.min.js" type="text/javascript"></script>
   <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="css/assets/js/plugins/bootstrap-switch.js"></script>
+  <script src="assets/now-ui-kit/js/plugins/bootstrap-switch.js"></script>
   <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="css/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-  <script src="css/assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-  <script src="css/assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+  <script src="assets/now-ui-kit/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
 </body>
 
 </html>
