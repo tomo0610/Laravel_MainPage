@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slide.css">
-<script type="text/javascript" src="js/openclose.js"></script>
-<script type="text/javascript" src="js/fixmenu_pagetop.js"></script>
+<link rel="stylesheet" href="assets/tp_cool7/css/style.css">
+<link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
+<script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
+<script type="text/javascript" src="assets/tp_cool7/js/fixmenu_pagetop.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -21,7 +21,7 @@
 
 <header>
 <div class="inner">
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1 id="logo"><a href="/"><img src="assets/tp_cool7/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 <div id="contact">
 <p class="tel">TEL:00-0000-0000<span>受付：00:00〜00:00　定休日：水曜日</span></p>
 </div>
@@ -31,23 +31,23 @@
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul class="inner">
-<li><a href="index.html">ホーム<span>HOME</span></a></li>
-<li><a href="company.html">会社概要<span>COMPANY</span></a></li>
-<li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
-<li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
-<li><a href="link.html">リンク<span>STAFF</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/">ホーム<span>HOME</span></a></li>
+<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
+<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
+<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="index.html">ホーム<span>HOME</span></a></li>
-<li><a href="company.html">会社概要<span>COMPANY</span></a></li>
-<li><a href="service.html">製品紹介<span>SERVICE</span></a></li>
-<li><a href="recruit.html">採用情報<span>RECRUIT</span></a></li>
-<li><a href="link.html">リンク<span>STAFF</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/">ホーム<span>HOME</span></a></li>
+<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
+<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
+<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
+<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
 </nav>
 
@@ -61,7 +61,7 @@
 <h2>サービス名</h2>
 
 <figure class="mb15">
-<img src="images/sample1_big.jpg" alt="サービス名">
+<img src="assets/tp_cool7/images/sample1_big.jpg" alt="サービス名">
 </figure>
 
 <table class="ta1">
@@ -127,24 +127,24 @@
 <h2>製品情報</h2>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -173,40 +173,40 @@ TEL：03-0000-0000<br>
 <h2>製品情報</h2>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
 </div>
 
 <div class="list">
-<a href="service2.html">
-<figure><img src="images/sample1.jpg" alt="写真の説明"></figure>
+<a href="/MainPage_Service2">
+<figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
 </a>
@@ -226,8 +226,8 @@ TEL：03-0000-0000<br>
 </nav>
 
 <p>
-<a href="recruit.html"><img src="images/banner1.jpg" alt="採用情報" class="pc"></a>
-<a href="recruit.html"><img src="images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
+<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
+<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
 </p>
 <p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
 <a href="company.html#banner">詳しい説明はこちら。</a></p>
@@ -285,7 +285,7 @@ TEL：03-0000-0000<br>
 <!--/footermenu-->
 
 <div id="copyright">
-<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+<small>Copyright&copy; <a href="/">SAMPLE COMPANY</a> All Rights Reserved.</small>
 <span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
 

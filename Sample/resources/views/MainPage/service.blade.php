@@ -21,7 +21,7 @@
 
 <header>
 <div class="inner">
-<h1 id="logo"><a href="index.html"><img src="assets/tp_cool7/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1 id="logo"><a href="/"><img src="assets/tp_cool7/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 <div id="contact">
 <p class="tel">TEL:00-0000-0000<span>受付：00:00〜00:00　定休日：水曜日</span></p>
 </div>
@@ -31,7 +31,7 @@
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul class="inner">
-<li><a href="/MainPage">ホーム<span>HOME</span></a></li>
+<li><a href="/">ホーム<span>HOME</span></a></li>
 <li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li class="current"><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
 <li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
@@ -42,7 +42,7 @@
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="/MainPage">ホーム<span>HOME</span></a></li>
+<li><a href="/">ホーム<span>HOME</span></a></li>
 <li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
 <li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
@@ -61,7 +61,7 @@
 <h2>製品紹介</h2>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt=""></figure>
 <h4>製品名</h4>
 <p>リンクがあると、ボックス右下に「→」マークが入ります。<br>
@@ -70,7 +70,7 @@
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt=""></figure>
 <h4>製品名</h4>
 <p>リンクがあると、ボックス右下に「→」マークが入ります。<br>
@@ -123,7 +123,7 @@
 <h2>製品情報</h2>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -131,7 +131,7 @@
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -139,7 +139,7 @@
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -169,7 +169,7 @@ TEL：03-0000-0000<br>
 <h2>製品情報</h2>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル<span class="newicon">NEW</span></h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -177,7 +177,7 @@ TEL：03-0000-0000<br>
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -185,7 +185,7 @@ TEL：03-0000-0000<br>
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -193,7 +193,7 @@ TEL：03-0000-0000<br>
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -201,7 +201,7 @@ TEL：03-0000-0000<br>
 </div>
 
 <div class="list">
-<a href="service2.html">
+<a href="/MainPage_Service2">
 <figure><img src="assets/tp_cool7/images/sample1.jpg" alt="写真の説明"></figure>
 <h4>製品タイトル</h4>
 <p>サンプルテキスト。サンプルテキスト。</p>
@@ -222,8 +222,8 @@ TEL：03-0000-0000<br>
 </nav>
 
 <p>
-<a href="recruit.html"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
-<a href="recruit.html"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
+<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
+<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
 </p>
 <p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
 <a href="company.html#banner">詳しい説明はこちら。</a></p>
@@ -281,7 +281,7 @@ TEL：03-0000-0000<br>
 <!--/footermenu-->
 
 <div id="copyright">
-<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+<small>Copyright&copy; <a href="/">SAMPLE COMPANY</a> All Rights Reserved.</small>
 <span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
 

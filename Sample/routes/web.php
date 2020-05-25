@@ -19,11 +19,11 @@
 //     return view('Welcome/welcome');
 // });
 
-Route::get('/', function () {
-    return view('Login/login-page');
-});
+// Route::get('/', function () {
+//     return view('Login/login-page');
+// });
 
-Route::get('/MainPage', function () {
+Route::get('/', function () {
     return view('MainPage/index');
 });
 
@@ -49,6 +49,10 @@ Route::get('/MainPage_Service', function () {
     return view('MainPage/service');
 });
 
+Route::get('/MainPage_Service2', function () {
+    return view('MainPage/service2');
+});
+
 Route::get('/MainPage_Recruit', function () {
     return view('MainPage/recruit');
 });
@@ -59,4 +63,8 @@ Route::get('/MainPage_Link', function () {
 
 Route::get('/MainPage_Contact', function () {
     return view('MainPage/contact');
+});
+
+Route::get('/MainPage_C2', function () {
+    return view('MainPage/c2');
 });
