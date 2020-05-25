@@ -3,8 +3,36 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>http://starserve.starfree.jp/MainPage_Recruit/</loc>
+  <loc>http://starserve.starfree.jp/</loc>
   <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Company</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Service</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Recruit</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Link</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Contact</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_Service2</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://starserve.starfree.jp/MainPage_C2</loc>
+  <priority>0.7</priority>
 </url>
 
 </urlset>
