@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ドイヤさん人参</title>
+<title>干し芋ファクトリー</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ドイヤさん人参">
-<meta name="keywords" content="ドイヤさん人参,ほしいも,茨城,茨城県産,茨城県産干し芋">
+<meta name="description" content="茨城県産の甘くおいしい干し芋を提供します。">
+<meta name="keywords" content="干し芋,ほしいも,茨城,茨城県産,茨城県産干し芋">
 <link rel="stylesheet" href="assets/tp_cool7/css/style.css">
 <link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
 <script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
@@ -22,7 +22,7 @@
 
 <header>
 <div class="inner">
-<h1 id="logo"><a href="/"><img src="assets/tp_cool7/images/logo.png" alt="ドイヤさん人参"></a></h1>
+<h1 id="logo"><a href="/"><img src="assets/tp_cool7/images/logo.png" alt="干し芋ファクトリー"></a></h1>
 <div id="contact">
 <p class="tel">TEL:00-0000-0000<span>受付：00:00〜00:00　定休日：水曜日</span></p>
 </div>
@@ -304,7 +304,7 @@ TEL：03-0000-0000<br>
 <!--/footermenu-->
 
 <div id="copyright">
-<small>Copyright&copy; <a href="/">ドイヤさん人参</a> All Rights Reserved.</small>
+<small>Copyright&copy; <a href="/">干し芋ファクトリー</a> All Rights Reserved.</small>
 <span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
 

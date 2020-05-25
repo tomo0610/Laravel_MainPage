@@ -41,6 +41,10 @@ Route::post('/CacheFlush','CacheController@flush');
 // メインページルート
 //--------------------------------------------------------------------------
 
+Route::get('/MainPage_SiteMap', function () {
+    return response()->view('MainPage/sitemap')->header('Content-Type', 'text/xml');
+});
+
 Route::get('/MainPage_Company', function () {
     return view('MainPage/company');
 });
@@ -54,7 +58,7 @@ Route::get('/MainPage_Service2', function () {
 });
 
 Route::get('/MainPage_Recruit', function () {
-    return view('MainPage/recruit');
+    return view('MainPage/hosiimo');
 });
 
 Route::get('/MainPage_Link', function () {
