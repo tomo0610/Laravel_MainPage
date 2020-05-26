@@ -57,8 +57,8 @@ Route::get('/MainPage_Service2', function () {
     return view('MainPage/service2');
 });
 
-Route::get('/MainPage_Recruit', function () {
-    return view('MainPage/hosiimo');
+Route::get('/MainPage_DriedPotato', function () {
+    return view('MainPage/driedPotato');
 });
 
 Route::get('/MainPage_Link', function () {

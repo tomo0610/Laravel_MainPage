@@ -35,7 +35,7 @@
 <li class="current"><a href="/">ホーム<span>HOME</span></a></li>
 <li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_DriedPotato">採用情報<span>RECRUIT</span></a></li>
 <li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
 <li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
@@ -46,7 +46,7 @@
 <li><a href="/">ホーム<span>HOME</span></a></li>
 <li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
 <li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
+<li><a href="/MainPage_DriedPotato">採用情報<span>RECRUIT</span></a></li>
 <li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
 <li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
 </ul>
@@ -245,8 +245,8 @@ TEL：03-0000-0000<br>
 </nav>
 
 <p>
-<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
-<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
+<a href="/MainPage_DriedPotato"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
+<a href="/MainPage_DriedPotato"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
 </p>
 <p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
 <a href="company.html#banner">詳しい説明はこちら。</a></p>
