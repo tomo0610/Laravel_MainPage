@@ -72,3 +72,10 @@ Route::get('/MainPage_Contact', function () {
 Route::get('/MainPage_C2', function () {
     return view('MainPage/c2');
 });
+
+//--------------------------------------------------------------------------
+// ブログページルート
+//--------------------------------------------------------------------------
+// Route::get('/MainPage_C2', function () {
+//     return view('MainPage/c2');
+// });
