@@ -1,10 +1,49 @@
 - [Laravel](#laravel)
   - [導入](#導入)
+    - [PHP](#php)
+    - [mysql](#mysql)
+    - [composer](#composer)
+    - [Laravel](#laravel-1)
+    - [visual Studio Code](#visual-studio-code)
   - [DBからModelを作成](#dbからmodelを作成)
     - [Eloquent Model Generator をインストールする](#eloquent-model-generator-をインストールする)
 
 # Laravel
 ## 導入
+### PHP
+1. PHP 7.4.6
+### mysql
+1. mysql  Ver 8.0.20 for Win64 on x86_64 (MySQL Community Server - GPL)
+### composer
+1. Composer version 1.10.6
+### Laravel
+1. krlove - eloquent-model-generator
+2. krlove - code-generator
+### visual Studio Code
+1. Atom One Dark Theme
+2. Auto Rename Tag
+3. Bookmarks
+4. Bracket Pair Colorizer
+5. C/C++
+6. C#
+7. Draw.io Integration
+8. Git Graph
+9. Highlight Matching Tag
+10. indent-rainbow
+11. Japanese Language Pack for Visual Studio Code
+12. Laravel 5 Snippets
+13. Larabel Artisan
+14. Laravel Blade Snippets
+15. Markdown All in One
+16. Markdown TOC
+17. Night Owl
+18. Path Autocomplete
+19. PHP Debug
+20. PHP Intelephense
+21. Prettier Code formatter
+22. Python
+23. Text Tables
+24. vscode-icons
 ## DBからModelを作成
 ### Eloquent Model Generator をインストールする
 1. コマンドライン上で下記のコマンドを実行

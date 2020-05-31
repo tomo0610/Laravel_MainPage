@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>写真販売致します。</title>
+<title>ポータルサイト</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="主に自分の撮影した写真の販売を行っています。干し柿も売る予定です。">
-<meta name="keywords" content="画像販売,写真販売,マルチビジネス,マルチサイト,干し柿">
+<meta name="description" content="様々な情報を発信するポータルサイトを目指します。">
+<meta name="keywords" content="ポータルサイト,写真販売,マルチビジネス,マルチサイト,画像販売">
 <link rel="stylesheet" href="assets/tp_cool7/css/style.css">
 <link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
 <script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
