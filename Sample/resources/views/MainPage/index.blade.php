@@ -33,11 +33,8 @@
 <nav id="menubar">
 <ul class="inner">
 <li class="current"><a href="/">ホーム<span>HOME</span></a></li>
-<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
-<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_DriedPotato">採用情報<span>RECRUIT</span></a></li>
-<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
-<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/MainPage_Company">事業内容<span>COMPANY</span></a></li>
+<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
 </ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
@@ -45,10 +42,7 @@
 <ul>
 <li><a href="/">ホーム<span>HOME</span></a></li>
 <li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
-<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_DriedPotato">採用情報<span>RECRUIT</span></a></li>
-<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
-<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/MainPage_DriedPotato">製品紹介<span>SERVICE</span></a></li>
 </ul>
 </nav>
 
@@ -100,7 +94,7 @@
 <a href="http://template-party.com/">Template-Party</a>の<a href="http://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
 
 <h3>当テンプレートにはお問い合わせフォーム（自動フォーム：試用版）がセットされています</h3>
-<p><a href="/MainPage_Contact">contact.html</a>と同じ３項目のお問い合わせフォームを簡単に使えるようにセットしています。</p>
+{{-- <p><a href="/MainPage_Contact">contact.html</a>と同じ３項目のお問い合わせフォームを簡単に使えるようにセットしています。</p> --}}
 <p><strong class="color1">■自動フォームを使う場合（※編集に入る前にご確認下さい）</strong><br>
 あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="http://template-party.com/file/formgen_manual_set2.html" target="_blank">詳しくはこちらのマニュアルをご覧下さい。</a></p>
 <p><strong class="color1">■自動フォームを使わない場合</strong><br>
@@ -111,7 +105,6 @@
 また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は<a href="http://template-party.com/free_program/openclose_license.html">こちらの規約</a>をお守り下さい。</p>
 
 <h3>当テンプレートの詳しい使い方は</h3>
-<p><a href="company.html#about">こちらをご覧下さい。</a></p>
 
 </section>
 
@@ -248,8 +241,6 @@ TEL：03-0000-0000<br>
 <a href="/MainPage_DriedPotato"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
 <a href="/MainPage_DriedPotato"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
 </p>
-<p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
-<a href="company.html#banner">詳しい説明はこちら。</a></p>
 
 </div>
 <!--/#side-->

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>クールイメージビジネスサイトサイト向け 無料ホームページテンプレート tp_cool7</title>
+<title>写真販売致します。</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<meta name="description" content="主に自分の撮影した写真の販売を行っています。干し柿も売る予定です。">
+<meta name="keywords" content="画像販売,写真販売,マルチビジネス,マルチサイト,干し柿">
 <link rel="stylesheet" href="assets/tp_cool7/css/style.css">
 <link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
 <script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
@@ -32,22 +32,16 @@
 <nav id="menubar">
 <ul class="inner">
 <li><a href="/">ホーム<span>HOME</span></a></li>
-<li class="current"><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
-<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
-<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
-<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
+<li class="current"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a></li>
+<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
 </ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
 <li><a href="/">ホーム<span>HOME</span></a></li>
-<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
-<li><a href="/MainPage_Service">製品紹介<span>SERVICE</span></a></li>
-<li><a href="/MainPage_Recruit">採用情報<span>RECRUIT</span></a></li>
-<li><a href="/MainPage_Link">リンク<span>STAFF</span></a></li>
-<li><a href="/MainPage_Contact">お問い合わせ<span>CONTACT</span></a></li>
+<li><a href="/MainPage_Company">事業内容<span>COMPANY</span></a></li>
+<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
 </ul>
 </nav>
 
@@ -170,8 +164,6 @@ offsettop = 350;<br>
 &lt;li <span class="color1">class=&quot;current&quot;</span>&gt;・・・<br>
 とする事で色がつきます。自動で色がつくわけではないのでご注意下さい。</p>
 
-<h3>2カラムレイアウトでも使えます</h3>
-<p><a href="/MainPage_C2">こちらにサンプルページがあります。</a></p>
 
 <h3>スマホなどの小さな端末からボタンクリックでPC画面を表示させたい方へ</h3>
 <p>レスポンシブデザインだと、スマホやタブレットなどの小さな端末から見た場合はそれ専用のレイアウトに変わりますが、あえてPC画面も見せたいユーザーの為に<a href="http://template-party.com/tips/tips20160916viewport.html">tipsを公開</a>しました。</p>
@@ -309,13 +301,6 @@ TEL：03-0000-0000<br>
 <li><a href="#">メニューサンプル</a></li>
 </ul>
 </nav>
-
-<p>
-<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1.jpg" alt="採用情報" class="pc"></a>
-<a href="/MainPage_Recruit"><img src="assets/tp_cool7/images/banner1_sh.jpg" alt="採用情報" class="sh"></a>
-</p>
-<p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
-<a href="company.html#banner">詳しい説明はこちら。</a></p>
 
 </div>
 <!--/#side-->
