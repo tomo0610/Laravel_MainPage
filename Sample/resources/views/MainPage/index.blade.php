@@ -11,6 +11,10 @@
 <link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
 <script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
 <script type="text/javascript" src="assets/tp_cool7/js/fixmenu_pagetop.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="assets/slick/slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" media="screen" />
+<script src="assets/slick/slick.min.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -41,8 +45,8 @@
 <nav id="menubar-s">
 <ul>
 <li><a href="/">ホーム<span>HOME</span></a></li>
-<li><a href="/MainPage_Company">会社概要<span>COMPANY</span></a></li>
-<li><a href="/MainPage_DriedPotato">製品紹介<span>SERVICE</span></a></li>
+<li><a href="/MainPage_Company">事業内容<span>COMPANY</span></a></li>
+<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
 </ul>
 </nav>
 
@@ -53,12 +57,10 @@
 
 <!--スライドショー-->
 <aside id="mainimg">
-<div class="inner">
-<img src="assets/tp_cool7/images/1.jpg" alt="" class="slide0">
-<img src="assets/tp_cool7/images/1.jpg" alt="" class="slide1">
-<img src="assets/tp_cool7/images/2.jpg" alt="" class="slide2">
-<img src="assets/tp_cool7/images/3.jpg" alt="" class="slide3">
-</div>
+<ul class="slider">
+<li><a href="/MainPage_Company" target="_blank"><img src="assets/tp_cool7/images/1.jpg" alt=""></a></li>
+<li><a href="/MainPage_DriedPotato" target="_blank"><img src="assets/business/dried_potato/images/1.jpg" alt=""></a></li>
+</ul>
 </aside>
 
 <section id="new">
@@ -120,8 +122,8 @@
 </nav>
 
 <nav>
-<h2>Qiita RSS ニュース</h2>
-<ul id="qiitaRss" class="submenu">
+<h2>TechAcademy RSS ニュース</h2>
+<ul id="techRss" class="submenu">
 </ul>
 </nav>
 
@@ -316,7 +318,8 @@ if (OCwindowWidth() <= 800) {
 window.addEventListener('DOMContentLoaded', function() {
 
 	getRSS("yahooRss", "method/yahoo_rss.php")
-	getRSSFeed("qiitaRss", "method/qiita_rss.php")
+	// getRSSFeed("qiitaRss", "method/qiita_rss.php")
+	getRSSFeed("techRss", "method/techacademy_rss.php")
  
 })
 
@@ -352,6 +355,16 @@ function getRSSFeed(id, path)
 	});
 	request.send();
 }
+
+// スライダーバナースクリプト
+$(function() {
+		$('.slider').slick({
+			autoplay: true, //オートプレイ
+			autoplaySpeed: 5000, //オートプレイの切り替わり時間
+			dots: true, //下の点々
+			easing: 'ease-in-out', //スライドの動きを制御
+		});
+	});
 
 </script>
 

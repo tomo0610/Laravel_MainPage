@@ -3,9 +3,7 @@
 $output = "";
 
 // techacademyマガジンのRSSフィードからRSSを取得します
-// $feed = file_get_contents('https://techacademy.jp/magazine/feed');
-$feed = file_get_contents('http://qiita.com/tags/AI/feed.atom');
-// $feed = htmlspecialchars_decode($feed);
+$feed = file_get_contents('https://techacademy.jp/magazine/feed');
 
 // MAXの表示件数を設定
 $max = 5;
@@ -24,7 +22,7 @@ $rss = simplexml_load_string($feed);
 // xmlタグの1階層下にあるchannelタグにアクセスし、
 // 最終的にはそのchannelタグの1階層下にある複数のitemタグにアクセスしています
 // 複数のitemタグは配列扱いとなっているため、foreachでループさせる事が可能です
-foreach($rss->entry as $item){
+foreach($rss->channel->item as $item){
 	// MAXの表示件数を超えたら終了
 	if( $cnt >= $max ) break;
 
@@ -32,13 +30,13 @@ foreach($rss->entry as $item){
     $title = $item->title;
 
     // itemタグの1階層下にあるpubDateタグを取得し、年月日に変換します
-    $date = date("Y年 n月 j日", strtotime($item->published));
+    $date = date("Y年 n月 j日", strtotime($item->pubDate));
 
     // itemタグの1階層下にあるlinkタグを取得します
-    $link = $item->url;
+    $link = $item->link;
 
     // itemタグの1階層下にあるdescriptionタグを取得し、HTMLタグだけを削除します
-    $description = strip_tags($item->content);
+    $description = strip_tags($item->description);
 
 	// それぞれの情報を出力します
 	$output .= '<li><a href="'. $link .'">' . $date . " " . $title . '</a></li><br>';
