@@ -9,12 +9,13 @@
 <meta name="keywords" content="ドイヤさん人参,ほしいも,茨城,茨城県産,茨城県産干し芋">
 <link rel="stylesheet" href="assets/tp_cool7/css/style.css">
 <link rel="stylesheet" href="assets/tp_cool7/css/slide.css">
-{{--  <link rel="stylesheet" href="assets/toppage/css/common.css">  --}}
+<link rel="stylesheet" href="assets/toppage/css/common.css">
 <script type="text/javascript" src="assets/tp_cool7/js/openclose.js"></script>
 <script type="text/javascript" src="assets/tp_cool7/js/fixmenu_pagetop.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" media="screen" />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 <script src="assets/slick/slick.min.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -35,18 +36,22 @@
 
 <!--PC用（801px以上端末）メニュー-->
 <nav id="menubar">
-<ul class="inner">
-<li class="current"><a href="/">ホーム<span>HOME</span></a></li>
-<li class="drop_down_menu"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a>
-	<ul>
-		<li><a href="/MainPage_Company">画像販売<span>PHOTOSERVICE</span></a></li>
-		<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
+	<ul class="inner">
+		<li class="current drop_down_menu"><a href="/">ホーム<span>HOME</span></a>
+			<ul>
+				<li><a href="/">トップページ<span>TOPPAGE</span></a></li>
+			</ul>
+		</li>
+		<li class="drop_down_menu"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a>
+			<ul>
+				<li><a href="/MainPage_Company">画像販売<span>PHOTOSERVICE</span></a></li>
+				<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
+			</ul>
+		</li>
 	</ul>
-</li>
-</ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
+{{--  <nav id="menubar-s">
 <ul>
 <li><a href="/">ホーム<span>HOME</span></a></li>
 <li class="drop_down_menu"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a>
@@ -56,27 +61,28 @@
 	</ul>
 </li>
 </ul>
-</nav>
-{{--  <nav id="menubar-s">
+</nav>  --}}
+<nav id="menubar-s">
 	<ul class="accordion-menu">
-		<li><a href="/">
-			<div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i>ホーム<span>HOME</span>
-				<i class="fa fa-chevron-down" aria-hidden="true"></i>
-		  	</div>
-			</a>
-		</li>
-		<li><a href="/MainPage_Company">
-			<div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i>事業内容<span>COMPANY</span>
+		<li>
+			<div class="dropdownlink">ホーム<span>HOME</span>
 				<i class="fa fa-chevron-down" aria-hidden="true"></i>
 			</div>
-			</a>
+			<ul class="submenuItems">
+				<li><a href="/">ホーム<span>HOME</span></a></li>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink">事業内容<span>COMPANY</span>
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
 			<ul class="submenuItems">
 				<li><a href="/MainPage_Company">画像販売<span>PHOTOSERVICE</span></a></li>
 				<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
 			</ul>
 		</li>
 	</ul>
-</nav>  --}}
+</nav>
 	
 
 <div id="contents" class="inner">
@@ -361,7 +367,7 @@ $(function() {
 		});
 	});
 
-	{{--  $(function() {
+	$(function() {
 		var Accordion = function(el, multiple) {
 		  this.el = el || {};
 		  // more then one submenu open?
@@ -389,20 +395,7 @@ $(function() {
 		}
 		
 		var accordion = new Accordion($('.accordion-menu'), false);
-	  })  --}}
-
-	{{--  // ヘッダーメニュードロップダウン作成
-	$(function() {
-		var nav = $('.nav');
-		$('li', nav)
-		.mouseover(function(e) {
-		$('ul', this).stop().slideDown('fast');
-		})
-		.mouseout(function(e) {
-		$('ul', this).stop().slideUp('fast');
-		});
-		});  --}}
-
+	  })
 </script>
 
 </body>

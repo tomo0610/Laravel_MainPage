@@ -618,9 +618,10 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 #menubar-s li a {
 	display: block;
 	text-decoration: none;
-	padding: 15px 10px 15px 20px;	/*上、右、下、左へのメニュー内の余白*/
+	padding: 10px 10px 5px 20px;	/*上、右、下、左へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
-	background: rgba(0,0,0,0.8);	/*背景色*/
+	/* background: rgba(0,0,0,0.8);	背景色 */
+	background: #fff;
 	font-size: 20px;
 }
 /*英語表記（飾り文字）*/
