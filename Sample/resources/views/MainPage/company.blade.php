@@ -32,8 +32,12 @@
 <nav id="menubar">
 <ul class="inner">
 <li><a href="/">ホーム<span>HOME</span></a></li>
-<li class="current"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a></li>
-<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
+<li class="current drop_down_menu"><a href="/MainPage_Company">事業内容<span>COMPANY</span></a>
+	<ul>
+		<li><a href="/MainPage_Company">画像販売<span>PHOTOSERVICE</span></a></li>
+		<li><a href="/MainPage_DriedPotato">干し芋ファクトリー<span>SERVICE</span></a></li>
+	</ul>
+</li>
 </ul>
 </nav>
 <!--小さな端末用（800px以下端末）メニュー-->
