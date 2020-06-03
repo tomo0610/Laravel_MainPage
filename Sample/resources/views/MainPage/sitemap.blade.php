@@ -11,11 +11,11 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>http://starserve.starfree.jp/MainPage_DriedPotato</loc>
+  <loc>http://starserve.starfree.jp/MainPage_PhotoSale</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>http://starserve.starfree.jp/MainPage_Service2</loc>
+  <loc>http://starserve.starfree.jp/MainPage_DriedPotato</loc>
   <priority>0.8</priority>
 </url>
 <url>
