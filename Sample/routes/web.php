@@ -49,29 +49,14 @@ Route::get('/MainPage_Company', function () {
     return view('MainPage/company');
 });
 
-Route::get('/MainPage_Service', function () {
-    return view('MainPage/service');
-});
-
-Route::get('/MainPage_Service2', function () {
-    return view('MainPage/service2');
+Route::get('/MainPage_PhotoSale', function () {
+    return view('MainPage/photoSale');
 });
 
 Route::get('/MainPage_DriedPotato', function () {
     return view('MainPage/driedPotato');
 });
 
-Route::get('/MainPage_Link', function () {
-    return view('MainPage/link');
-});
-
-Route::get('/MainPage_Contact', function () {
-    return view('MainPage/contact');
-});
-
-Route::get('/MainPage_C2', function () {
-    return view('MainPage/c2');
-});
 
 //--------------------------------------------------------------------------
 // ブログページルート
