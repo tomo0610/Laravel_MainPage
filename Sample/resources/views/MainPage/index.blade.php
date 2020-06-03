@@ -15,7 +15,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" media="screen" />
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
 <script src="assets/slick/slick.min.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -101,20 +101,8 @@
 <section id="new">
 <h2>更新情報・お知らせ</h2>
 <dl>
-<dt>2018/11/22</dt>
-<dd>tp_cool7配布開始。<span class="newicon">NEW</span></dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+<dt>2020/06/03</dt>
+<dd>トップページ作成途中<span class="newicon">NEW</span></dd>
 </dl>
 <p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>
 </section>
@@ -164,7 +152,7 @@
 </ul>
 </nav>
 
-<section>
+{{--  <section>
 
 <h2>製品情報</h2>
 
@@ -192,15 +180,7 @@
 </a>
 </div>
 
-</section>
-
-<div class="box1">
-<h2>アクセス</h2>
-<p>東京都XX区XXXXビル３F<br>
-TEL：03-0000-0000<br>
-受付：9:00～16:00<br>
-定休日：土日祝</p>
-</div>
+</section>  --}}
 
 </div>
 <!--/#sub-->
@@ -208,6 +188,7 @@ TEL：03-0000-0000<br>
 </div>
 <!--/#contents-in-->
 
+{{--  右側の要素  --}}
 <div id="side">
 
 <section>
@@ -400,4 +381,4 @@ $(function() {
 
 </body>
 </html>
-{{ SassCompiler::run("assets/toppage/scss/", "assets/toppage/css/") }}
+{{--  {{ SassCompiler::run("assets/toppage/scss/", "assets/toppage/css/") }}  --}}

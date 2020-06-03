@@ -7,6 +7,10 @@
     - [visual Studio Code](#visual-studio-code)
   - [DBからModelを作成](#dbからmodelを作成)
     - [Eloquent Model Generator をインストールする](#eloquent-model-generator-をインストールする)
+    - [Eloquent Model Generator を使用する](#eloquent-model-generator-を使用する)
+  - [scssファイルからcssファイルを生成する](#scssファイルからcssファイルを生成する)
+    - [composerでscssをインストールする](#composerでscssをインストールする)
+    - [scssをcssに変換する](#scssをcssに変換する)
 
 # Laravel
 ## 導入
@@ -19,6 +23,7 @@
 ### Laravel
 1. krlove - eloquent-model-generator
 2. krlove - code-generator
+3. "panique/laravel-sass": "dev-master"
 ### visual Studio Code
 1. Atom One Dark Theme
 2. Auto Rename Tag
@@ -83,7 +88,7 @@
       -v|vv|vvv, --verbose                      Increase the verbosity of   messages: 1 for normal output, 2 for more verbose output and 3 for debug
     ~~~
 
-2. 実際に動かす
+### Eloquent Model Generator を使用する
     コマンドラインで下記のコマンドを実行
     ~~~
     php artisan krlove:generate:model [ModelName] --table-name=[DBTableName] --output-path=Models --namespace=App\\Models --no-timestamps
@@ -97,3 +102,27 @@
     # php artisan krlove:generate:model Commentmeta --table-name=wp_commentmeta --output-path=Models/Wp --namespace=App\\Models\\Wp --no-timestamps
     Model Commentmeta generated
     ~~~
+## scssファイルからcssファイルを生成する
+### composerでscssをインストールする
+    1. Laravelプロジェクトフォルダにあるcomposer.jsonに以下のコードを追記する
+      ~~~
+      "require"{
+      "panique/laravel-sass": "dev-master"
+      }
+      ~~~
+    2. コマンドプロンプト上でcomposer updateを実行する
+      ~~~
+      composer update
+      ~~~
+### scssをcssに変換する
+    1. index.phpの最終行に以下のコードを追記する
+      ~~~
+      SassCompiler::run("scss/", "css/");
+      ~~~
+    2. index.blade.phpの場合は以下のコードを追記する
+      ~~~
+      {{ SassCompiler::run("scss/", "css/") }}
+      ~~~
+    3. publicフォルダに「scss」,「css」フォルダを作成する
+    4. 3で作成した「scss」フォルダに変換したい「.scss」ファイルを設置する
+    5. index.php(もしくはindex.blade.php)をブラウザから呼び出せば「css」フォルダに変換後のファイルが作成される
