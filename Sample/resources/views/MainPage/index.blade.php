@@ -9,8 +9,8 @@
 	<!--スライドショー-->
 	<aside id="mainimg">
 	<ul class="slider">
-	<li><a href="/MainPage_Company" target="_blank"><img src="assets/toppage/images/1.jpg" alt=""></a></li>
-	<li><a href="/MainPage_DriedPotato" target="_blank"><img src="assets/business/driedPotato/images/1.jpg" alt=""></a></li>
+	<li><a href="/MainPage_Company" target="_blank"><img src="assets/toppage/images/1.jpg" alt="事業紹介"></a></li>
+	<li><a href="/MainPage_DriedPotato" target="_blank"><img src="assets/business/driedPotato/images/1.jpg" alt="干し芋ファクトリー"></a></li>
 	</ul>
 	</aside>
 
@@ -18,13 +18,16 @@
 	<h2>更新情報・お知らせ</h2>
 	<dl>
 	<dt>2020/06/03</dt>
-	<dd>トップページ作成途中<span class="newicon">NEW</span></dd>
+	<dd>トップページ作成完了<span class="newicon">NEW</span></dd>
 	</dl>
 	</section>
 
 	<section>
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/TXqzg2iXklE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div style="position: relative;">
+			<div id="covorImg" style="position: absolute;"><img src="assets/toppage/images/2.png"></div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/TXqzg2iXklE?autoplay=1&start=35&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 
 	{{-- <h2>テンプレートのご利用前に必ずお読み下さい</h2>
 

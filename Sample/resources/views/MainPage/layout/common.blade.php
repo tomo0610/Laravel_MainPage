@@ -146,13 +146,13 @@
 <a href="/MainPage_PhotoSale">
 <figure><img src="assets/business/photoSale/images/1.jpg" alt="画像販売"></figure>
 <h4>画像販売<span class="newicon">NEW</span></h4>
-<p>画像販売事業を展開しています(現在準備中)</p>
+<p>画像販売事業を展開しています</p>
 </a>
 </div>
 
 <div class="list">
 <a href="/MainPage_DriedPotato">
-<figure><img src="assets/business/driedPotato/images/2.jpg" alt="干し芋"></figure>
+<figure><img src="assets/business/driedPotato/images/2.jpg" alt="干し芋ファクトリー"></figure>
 <h4>干し芋ファクトリー<span class="newicon">NEW</span></h4>
 <p>現在シーズンオフ</p>
 </a>

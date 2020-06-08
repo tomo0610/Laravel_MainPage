@@ -18,9 +18,5 @@
   <loc>http://starserve.starfree.jp/MainPage_DriedPotato</loc>
   <priority>0.8</priority>
 </url>
-<url>
-  <loc>http://starserve.starfree.jp/MainPage_DriedPotato/css/index.html</loc>
-  <priority>0.7</priority>
-</url>
 
 </urlset>

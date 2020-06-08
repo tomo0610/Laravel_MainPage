@@ -2,12 +2,12 @@
 
 @section('title','画像販売')
 @section('descriotion','自分で撮影した画像を主に販売しています。')
-@section('keyword','写真販売')
+@section('keyword','画像販売,写真販売')
 
 @section('mainContents')
 <section>
 
-<h2>写真販売</h2>
+<h2>画像販売</h2>
 
 <table class="ta1">
 	<caption>新しく追加したときに更新していきます</caption>
