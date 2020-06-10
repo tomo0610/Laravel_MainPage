@@ -57,6 +57,9 @@ Route::get('/MainPage_DriedPotato', function () {
     return view('MainPage/driedPotato');
 });
 
+Route::get('/MainPage_Portfolio', function () {
+    return view('MainPage/portfolio');
+});
 
 //--------------------------------------------------------------------------
 // ブログページルート
