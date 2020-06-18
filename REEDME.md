@@ -12,6 +12,8 @@
     - [composerでscssをインストールする](#composerでscssをインストールする)
     - [scssをcssに変換する](#scssをcssに変換する)
   - [サイトマップ作成](#サイトマップ作成)
+  - [XDebugの導入](#xdebugの導入)
+  - [twitter,facebook,instagramアイコンの付け方](#twitterfacebookinstagramアイコンの付け方)
 
 # Laravel
 ## 導入
@@ -142,4 +144,42 @@
 
     ~~~ php
     <?php echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
+    ~~~
+## XDebugの導入
+1. 自分の環境にあったdllをダウンロードする
+     - 下記サイトにphp_info()の内容を張り付けると最適なdllを紹介してくれる
+       - https://xdebug.org/wizard
+2. ダウンロードしたdllを下記フォルダに移動する
+     - C:\php\ext
+3. php.iniを編集する
+     - 下記の設定を追加
+      ~~~
+      [xdebug]
+      zend_extension=[1でダウンロードしたdll名]
+      xdebug.remote_enable=1
+      xdebug.remote_autostart=1
+      ~~~
+4. コマンドプロンプトで「php --version」を入力して何もエラーが出なければ導入完了
+5. vscode設定
+     - vscodeのデバッグマークをクリックする
+     - jsonの構成を作成でPHPを選択する
+     - 「Listen for XDebug」の左側の再生ボタンをクリックするとデバッグ開始
+## twitter,facebook,instagramアイコンの付け方
+1.  CDNのスタイルシートを読み込む
+    ~~~ html
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    ~~~
+1.  アイコンを追加する
+    ~~~ html
+    // twitter
+    <i class="fa fa-twitter"></i>
+    // facebook
+    <i class="fa fa-facebook"></i>
+    // instagram
+    <i class="fa fa-instagram"></i>
+    ~~~
+2.  アイコンにリンクを付ける
+    ~~~ html
+    // twitterを見本にする
+    <a href="https://twitter.com/chiki09544011"><i class="fa fa-twitter"></i></a>
     ~~~

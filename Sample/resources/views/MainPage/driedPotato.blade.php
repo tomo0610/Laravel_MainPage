@@ -21,7 +21,10 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-size" src="assets/business/driedPotato/images/driedPotatoLogo.png" alt="干し芋ダイエット" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    <img class="img-size" src="assets/business/driedPotato/images/driedPotatoLogo.png" alt="干し芋ダイエット" />
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
@@ -38,6 +41,8 @@
                 <h1 class="masthead-subheading">干し芋ファクトリーへようこそ!</h1>
             </div>
         </header>
+
+
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
@@ -73,6 +78,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Catalog Grid-->
         <section class="page-section bg-light" id="catalog">
             <div class="container">
@@ -123,6 +130,8 @@
                 </div>
             </div>
         </section>
+
+        
         <!-- About-->
         <!-- <section class="page-section" id="about">
             <div class="container">

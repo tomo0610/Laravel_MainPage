@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Droppoststable extends Migration
+class CreateContactsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class Droppoststable extends Migration
      */
     public function up()
     {
-        
-        Schema::drop('posts');
-        
+        Schema::create('contacts', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->text('userName');
+            $table->text('mailAddress');
+            $table->text('detail');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -25,8 +29,6 @@ class Droppoststable extends Migration
      */
     public function down()
     {
-        Schema::table('posts', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('contacts');
     }
 }

@@ -1,27 +1,3 @@
-var
-cursor = $(".cursor"),
-cWidth = 20, //カーソルの大きさ
-mouseX = 0, //マウスのX座標
-mouseY = 0; //マウスのY座標
-
-$(document).on('mousemove', function(e) {
-  mouseX = e.pageX;
-  mouseY = e.pageY;
-  cursor.css({
-    //カーソルの真ん中に座標軸が来るよう、
-    //カーソルの大きさの半分を引きます
-    // left: mouseX - (cWidth / 2),
-    // top: mouseY - (cWidth / 2)
-    left: mouseX,
-    top: mouseY
-  })
-});
-
-$(document).on('mousemove', function(){
-    $("#mousePoint").removeClass('cursorNone');
-});
-
-
 // 文字出現エフェクト
 var tl = gsap.timeline();
 
@@ -32,3 +8,35 @@ tl.from("#split", {duration: 0.8, opacity:0, scale:0, y:80, rotationX:180, trans
     .add("scene1")
     .to("#split", {duration: 0.8, opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:"back", stagger: 0.01, delay: 3}, "scene1")
     .from("#split2", {duration: 0.8, opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:"back", stagger: 0.01, delay: 3.5}, "scene1");
+
+// ドラッグスクロール
+(function() {
+  $.fn.dragScroll = function() {
+    var target = this;
+    $(this).mousedown(function (event) {
+      $(this)
+        .data('down', true)
+        .data('x', event.clientX)
+        .data('y', event.clientY)
+        .data('scrollLeft', this.scrollLeft)
+        .data('scrollTop', this.scrollTop);
+      return false;
+    }).css({
+      'overflow': 'hidden', // スクロールバー非表示
+      'cursor': 'move'
+    });
+    // ウィンドウから外れてもイベント実行
+    $(document).mousemove(function (event) {
+      if ($(target).data('down') == true) {
+        // スクロール
+        target.scrollLeft($(target).data('scrollLeft') + $(target).data('x') - event.clientX);
+        target.scrollTop($(target).data('scrollTop') + $(target).data('y') - event.clientY);
+        return false; // 文字列選択を抑止
+      }
+    }).mouseup(function (event) {
+      $(target).data('down', false);
+    });
+
+    return this;
+  }
+})(jQuery);

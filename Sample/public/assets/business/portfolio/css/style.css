@@ -1,15 +1,103 @@
+.wborder{
+  border: 1px solid black;
+}
+
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 400px;
   margin: 0;
+  background-color: chocolate;
 }
 
 /* マウスカーソル変更 */
 body, div, input {
     position: relative;
-    cursor: none; 
+    /* cursor: none;  */
   }
+
+/* 文字入力をできるようにする */
+input, textarea{
+  -webkit-user-select: auto;
+}
+
+/* service.css */
+#services{
+  width:  100%;
+  height: 400px;
+  font-size: 100px;
+  color: chocolate;
+  background-color: chocolate;
+}
+
+@media(min-width: 400px){
+  #services{
+    background-image: url('../images/PortfolioTopImg1.png');
+    background-size: cover;
+  }
+}
+
+@media(max-width: 400px){
+  #services{
+    background-image: url('../images/PortfolioTopImg2.png');
+    background-size: cover;
+  }
+}
+
+/* About.css */
+#About{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 100px;
+  display: block;
+  margin: 50px 0 50px 0;
+  background-color: chocolate;  
+}
+
+@media(max-width: 768px){
+
+  #About{
+    padding-bottom: 50px; 
+  }
+}
+
+/* Portfolio.css */
+#Portfolio{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 100px;
+  display: block;
+  margin: 100px 0 0 0;
+  padding-bottom: 400px;
+  background-color: chocolate;
+}
+
+@media(min-width: 768px){
+  #Portfolio{
+    margin: 100px 0 0 0;
+  }
+}
+
+@media(max-width: 768px){
+  #Portfolio{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 100px;
+    display: block;
+    margin: 50px 0 0 0;
+    padding-bottom: 50px;
+    margin: 50px 0;
+    background-color: chocolate;
+  }
+}
+
+#Contact-normal{
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/map-image.png");
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  font-family: 'HG正楷書体-PRO';
+}
 
 .cursor,
 .follower {
@@ -49,16 +137,23 @@ body, div, input {
   }
 
 /* 文字出現エフェクト */
+/* 共通設定 */
 .box {
     padding: 30px;
     margin: 0 auto;
     position: relative;
     top: 50%;
-    font-size: 100px;
+    font-size: 1em;
     line-height: 1.5;
     transform: translateY(-50%);
     perspective: 400px;
     font-family: 'Architects Daughter', cursive;
+}
+/* 画面サイズ950px以下 */
+@media(max-width: 950px){
+  .box{
+    font-size: 0.75em;
+  }
 }
 
 .mainVisual{
@@ -67,14 +162,6 @@ body, div, input {
     height: 100%;
     margin: auto;
 }
-
-/* service.css */
-#services{
-    width:  100%;
-    height: 70%;
-    background-color: gray;
-}
-
 
 @media (max-width: 768px) {
     .cursor {
@@ -94,3 +181,345 @@ body, div, input {
         font-family: 'Architects Daughter', cursive;
     }
 } 
+
+/* catalog.css */
+@media (min-width: 768px){
+  #catalog-mb{display: none;}
+}
+
+
+@media (max-width: 768px) {
+  #catalog{
+    display: none;
+    overflow: hidden;
+  }
+
+  #catalog-mb{
+    margin: 30px 0;
+  }
+}
+
+/* ドラッグ横スクロール */
+.slider-wrapper {
+  width: 100%;
+  padding: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background: #CCC;
+}
+
+@media (min-width: 768px){
+  .slider {
+    width: max-content;
+    /* overflow-x: scroll; */
+  }  
+}
+
+@media (max-width: 768px) {
+  .slider-mb {
+    width: max-content;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+}
+
+.slider > * {
+  -webkit-transform: translateZ(0px);
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none;
+  height: 0 !important;
+}
+
+.unit {
+  float: left;
+  width: 500px;
+  /* margin-left: 100px; */
+  border: 1px solid #DDDDDD;
+  background: #EFEFEF;
+}
+
+.unit:first-child {
+  margin: 0;
+}
+
+.unit .img {
+  text-align: center;
+}
+
+/* 画面サイズ768px以上 */
+@media(min-width: 768px){
+
+  .siteHeader .subMenuBtn {
+    width:100px;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color: aquamarine;
+    border:1px solid aquamarine;
+    position:absolute;
+    right:20px;
+    top:28px;
+  }
+
+  .subMenuList{
+    float: left;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+}
+
+/* 画面サイズ768pxより下 */
+@media(max-width: 768px){
+
+  .siteHeader .subMenuBtn {
+    width:50px;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color: aquamarine;
+    border:1px solid aquamarine;
+    position:absolute;
+    right:20px;
+    top:28px;
+  }
+
+  .subMenuList{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+/* ヘッダータイトル */
+/* 共通設定 */
+.siteHeader_title{
+  font-family: 'Architects Daughter', cursive;
+  color: aqua;
+}
+/* 画面サイズ768px以上 */
+@media(min-width: 768px){
+
+  .siteHeader_title{
+    font-size: xx-large;
+  }
+}
+/* 画面サイズ768pxより下 */
+@media(max-width: 768px){
+
+  .siteHeader_title{
+    font-size: large;
+  }
+}
+
+/* About内容 */
+.About_header{
+  width: max-content;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  font-size: 0.75em;
+}
+
+.About_body{
+  font-size: 0.25em;
+}
+
+.About-unit2 .About-unit2-span1{
+  font-weight: bold;
+}
+
+.About-unit2 .About-unit2-span2{
+  font-size: 0.75em;
+}
+
+/* Aboutエリア大きい画面用 */
+@media(min-width: 768px){
+  .About-unit2{
+    width: 50%;
+    margin-left: 50px;
+  }
+}
+
+/* Aboutエリア小さい画面用 */
+@media(max-width: 768px){
+  .About-unit1{
+    display: none;
+  }
+
+  .About-unit2{
+    width: 70%;
+  }
+}
+
+/* Aboutエリア更に小さい画面 */
+@media(max-width: 400px){
+  .About-unit2{
+    width: 80%;
+
+  }
+
+  .About-unit2 .About-unit2-span1{
+    font-weight: bold;
+    font-size: 0.75em;
+  }
+  
+  .About-unit2 .About-unit2-span2{
+    font-size: 0.5em;
+  }
+}
+
+.Portfolio_header{
+  width: max-content;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-size: 0.75em;
+}
+
+/* 大きい画面用 */
+@media(min-width: 768px){
+
+  .Portfolio_body{
+    width: max-content;
+    margin: 0 auto 0 auto;
+    display: block;
+  }
+  
+  .Portfolio_body .Portfolio_unit{
+    width: 352px;
+    height: auto;
+    float: left;
+    margin: 50px;
+    border: 1px solid black;
+  }
+}
+
+/* 小さい画面用 */
+@media(max-width: 768px){
+  .Portfolio_body{
+    width: max-content;
+    margin: 0 auto 0 auto;
+    display: block;
+  }
+  
+  .Portfolio_body .Portfolio_unit{
+    width: 256px;
+    height: 114px;
+    margin: 50px;
+    border: 1px solid black;
+    display: block;
+    text-decoration: none;
+  }
+}
+
+
+/* 問い合わせセクション */
+#Contact-normal span{
+  color: white;
+}
+
+#Contact-normal input{
+  background-color: white;
+  color: black;
+}
+
+#Contact-normal textarea{
+  background-color: white;
+  color: black;
+}
+
+/* 大きい画面 */
+@media(min-width: 768px){
+  #Contact-normal .Contact-normal-contents{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+  }
+}
+
+/* 小さい画面 */
+@media(max-width: 768px){
+  #Contact-normal .Contact-normal-contents{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+  }
+}
+
+#Contact-normal .Contact-normal-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 大きい画面 */
+@media(min-width: 768px){
+  #Contact-normal .Contact-normal-content1{
+    width: 30%;
+  }
+}
+
+/* 小さい画面 */
+@media(max-width: 768px){
+  #Contact-normal .Contact-normal-content1{
+    width: 50%;
+    margin: 0 auto 0 auto;
+  }
+
+  #Contact-normal .Contact-normal-content2{
+    width: 50%;
+    margin: 0 auto 0 auto;
+  }
+}
+
+/* 大きい画面 */
+@media(min-width: 650px){
+  #Contact-normal .Contact-normal-unit1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+  }
+}
+
+/* 小さい画面 */
+@media(max-width: 650px){
+  #Contact-normal .Contact-normal-unit1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+  }
+}
+
+.btn-gradient-3d-orange {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+}
+
+.btn-gradient-3d-orange:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.fa{
+  color: chocolate;
+  font-size: xx-large;
+  margin: 5px 10px;
+}

@@ -61,6 +61,9 @@ Route::get('/MainPage_Portfolio', function () {
     return view('MainPage/portfolio');
 });
 
+// メール送信メソッド
+Route::post('/SendMessage','PortfolioController@sendMessage');
+
 //--------------------------------------------------------------------------
 // ブログページルート
 //--------------------------------------------------------------------------
